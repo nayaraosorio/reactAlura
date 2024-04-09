@@ -1,13 +1,15 @@
-import './Banner'
+// Banner.js
 
+import './Banner.css';
 
 function Banner() {
     return(
-        <img src="/imagens/banner.png" alt="Banner principal da página"/>
-    )
+        <header className="banner">
+        <img src="/imagens/banner.png" alt="Banner principal da página" />
+    </header>);
 }
 
-export default Banner
+export default Banner;
 
 
 // return (
